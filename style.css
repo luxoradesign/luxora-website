@@ -120,3 +120,42 @@ footer {
   font-size: 0.9rem;
   margin-top: 60px;
 }
+
+/* === HERO SECTION === */
+.hero {
+  background: url('assets/showhome.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.hero: :before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 0;
+}
+
+.hero-content {
+  z-index: 1;
+  color: #fff;
+  padding: 40px;
+  max-width: 700px;
+}
+
+.hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #D4AF37;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #e8e6e3;
+}
