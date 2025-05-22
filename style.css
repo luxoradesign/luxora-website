@@ -159,3 +159,33 @@ footer {
   margin-bottom: 30px;
   color: #e8e6e3;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  font-size: 1rem;
+  background-color: #111;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #D4AF37;
+  box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+}
+
+.contact-form button {
+  align-self: flex-start;
+}
