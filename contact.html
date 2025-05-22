@@ -3,25 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - Luxora</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Contact Us | Luxora</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <img src="assets/logo.jpg" alt="Luxora Design House Ltd. Logo">
+  <header class="site-header">
+    <div class="container">
+      <img src="assets/logo.jpg" alt="Luxora Logo" class="site-logo" />
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+
   <main>
-    <h1>Contact Us</h1>
-    <p>Email us at <a href="mailto:info@luxoradesignhouse.com" style="color:#D4AF37;">info@luxoradesignhouse.com</a></p>
+    <h1>Let's Connect</h1>
+    <p>If you're ready to create something unforgettable, we're ready to listen.</p>
+
+    <form name="contact" method="POST" data-netlify="true" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="6" placeholder="Tell us about your vision..."></textarea>
+      <button type="submit" class="cta-button">Send Message</button>
+    </form>
+
+    <p style="margin-top: 40px;">Prefer email? Reach out directly at <a href="mailto:info@luxoradesignhouse.com" style="color:#D4AF37;">info@luxoradesignhouse.com</a></p>
   </main>
+
   <footer>
-    &copy; 2025 Luxora Design House Ltd. All rights reserved.
+    &copy; 2025 Luxora Design House Ltd. | Prince George, BC | info@luxoradesignhouse.com
   </footer>
 </body>
 </html>
