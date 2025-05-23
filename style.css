@@ -274,3 +274,34 @@ footer {
   font-size: 1rem;
   line-height: 1.6;
 }
+
+.service-detail {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.service-detail .intro {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.service-detail section {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.service-detail h2 {
+  color: #D4AF37;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.service-detail ul {
+  list-style: disc;
+  margin-left: 20px;
+  line-height: 1.6;
+  color: #e8e6e3;
+}
