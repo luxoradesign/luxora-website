@@ -329,10 +329,10 @@ footer {
 }
 
 .hero-calligraphy {
-  font-family: 'Playfair Display', cursive;
-  font-size: 2.8rem;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.2rem;
   color: #D4AF37;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  opacity: 0.95;
   letter-spacing: 1px;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
-  opacity: 0.9;
 }
