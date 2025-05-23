@@ -385,3 +385,44 @@ footer {
 .dropdown:hover .dropbtn {
   color: #fff;
 }
+
+.journal-section {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.blog-card {
+  background-color: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 6px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.blog-card h2 {
+  font-size: 1.4rem;
+  color: #D4AF37;
+  margin-bottom: 10px;
+}
+
+.blog-card p {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.blog-card:hover {
+  background-color: rgba(255,255,255,0.05);
+  border-color: #D4AF37;
+  transform: translateY(-5px);
+}
